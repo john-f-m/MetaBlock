@@ -1,6 +1,6 @@
 # MetaBlock
 
-Starter project for:
+A project for:
 
 - Browser extensions (Chromium + Firefox) that block Meta-owned domains.
 - A local DNS service that blocks Meta domains and DNS answers resolving to Meta ASN prefixes.
