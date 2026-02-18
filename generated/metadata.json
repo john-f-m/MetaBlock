@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "asns": 5,
+    "domains": 22,
+    "ipv4_prefixes": 20,
+    "ipv6_prefixes": 2,
+    "prefixes": 22,
+    "robot_user_agent_tokens": 6
+  },
+  "failed_asn_fetches": {},
+  "generated_at_utc": "2026-02-18T04:21:18.888452+00:00",
+  "source": {
+    "asn_api": "https://stat.ripe.net/data/announced-prefixes/data.json?resource=AS<ASN>",
+    "asn_file": "/Users/John/agents/MetaBlock/blocklists/seed_asns.txt",
+    "domain_file": "/Users/John/agents/MetaBlock/blocklists/seed_domains.txt",
+    "robot_file": "/Users/John/agents/MetaBlock/blocklists/seed_robot_user_agents.txt",
+    "snapshot_prefix_file": "/Users/John/agents/MetaBlock/blocklists/snapshot_prefixes.txt"
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||atlassolutions.com^"
+    },
+    "id": 1,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||cdninstagram.com^"
+    },
+    "id": 2,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||facebook.com^"
+    },
+    "id": 3,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||facebook.net^"
+    },
+    "id": 4,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fb.com^"
+    },
+    "id": 5,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fb.me^"
+    },
+    "id": 6,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fb.watch^"
+    },
+    "id": 7,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fbcdn.net^"
+    },
+    "id": 8,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||fbsbx.com^"
+    },
+    "id": 9,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||instagram.com^"
+    },
+    "id": 10,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||m.me^"
+    },
+    "id": 11,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||messenger.com^"
+    },
+    "id": 12,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||meta.ai^"
+    },
+    "id": 13,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||meta.com^"
+    },
+    "id": 14,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||oculus.com^"
+    },
+    "id": 15,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||oninstagram.com^"
+    },
+    "id": 16,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||tfbnw.net^"
+    },
+    "id": 17,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||threads.net^"
+    },
+    "id": 18,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||wa.me^"
+    },
+    "id": 19,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||whatsapp.com^"
+    },
+    "id": 20,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||whatsapp.net^"
+    },
+    "id": 21,
+    "priority": 1
+  },
+  {
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||workplace.com^"
+    },
+    "id": 22,
+    "priority": 1
+  }
+]

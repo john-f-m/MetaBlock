@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MetaBlock | AI Network Defense</title>
+    <meta
+      name="description"
+      content="MetaBlock is an AI-assisted toolkit that blocks Meta traffic across browser extensions, DNS filtering, and robot signature controls."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>MetaBlock</span>
+      </div>
+      <nav>
+        <a href="#why">Why It Exists</a>
+        <a href="#stack">Stack</a>
+        <a href="#launch">Launch</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" data-reveal>
+        <p class="pill">Built for GitHub Visitors</p>
+        <h1>AI-Driven Network Blocking for Meta Infrastructure</h1>
+        <p class="hero-copy">
+          MetaBlock combines browser extension rules, DNS filtering, and crawler
+          signatures into one repeatable workflow. Keep your controls visible,
+          auditable, and easy to update.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="../README.md">Read Setup Guide</a>
+          <a class="btn btn-ghost" href="#launch">See Quick Commands</a>
+        </div>
+        <ul class="metrics">
+          <li>
+            <strong>3 layers</strong>
+            Browser + DNS + robot filtering
+          </li>
+          <li>
+            <strong>5 ASNs</strong>
+            Seeded for Meta ecosystem coverage
+          </li>
+          <li>
+            <strong>22+ domains</strong>
+            Synced into extension and DNS outputs
+          </li>
+        </ul>
+      </section>
+
+      <section id="why" class="panel reveal" data-reveal>
+        <h2>Why This Project Exists</h2>
+        <p>
+          Blocking at one layer misses traffic. MetaBlock enforces policy at
+          multiple control points so GitHub reviewers can inspect exactly how
+          rules are generated and where they are applied.
+        </p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>AI-Assisted Rule Generation</h3>
+            <p>
+              A single generator builds browser rules, DNS configs, and metadata
+              so your policy stays consistent.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Deterministic Outputs</h3>
+            <p>
+              Seed files are human-editable while generated files are machine
+              reproducible for review and CI.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Operational Safety</h3>
+            <p>
+              If live ASN APIs fail, a maintained snapshot keeps blocking active
+              instead of silently dropping coverage.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="panel reveal" data-reveal>
+        <h2>System Stack</h2>
+        <div class="stack">
+          <article>
+            <h3>1. Browser Layer</h3>
+            <p>
+              Chromium and Firefox manifests load generated
+              <code>declarativeNetRequest</code> rules to stop domain requests.
+            </p>
+          </article>
+          <article>
+            <h3>2. DNS Layer</h3>
+            <p>
+              The local resolver blocks Meta domains and rejects DNS answers
+              that map into blocked Meta prefixes.
+            </p>
+          </article>
+          <article>
+            <h3>3. Bot Layer</h3>
+            <p>
+              Robot signature output supports server-side blocks for known Meta
+              crawler user-agents.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="launch" class="panel reveal" data-reveal>
+        <h2>Launch In Minutes</h2>
+        <p>Run this in the repository root:</p>
+        <pre><code>python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/generate_blocklists.py --skip-asn-fetch
+python dns_service/server.py --port 5353</code></pre>
+      </section>
+    </main>
+
+    <footer>
+      <p>MetaBlock is open, inspectable infrastructure control for GitHub audiences.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

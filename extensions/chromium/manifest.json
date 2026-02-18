@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "MetaBlock (Chromium)",
+  "version": "0.1.0",
+  "description": "Blocks Meta-owned domains using generated declarativeNetRequest rules.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_title": "MetaBlock"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "meta_rules",
+        "enabled": true,
+        "path": "rules/rules_1.json"
+      }
+    ]
+  }
+}

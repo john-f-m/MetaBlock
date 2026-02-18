@@ -1,0 +1,7 @@
+# Known Meta crawler/bot user-agent tokens (case-insensitive matching).
+facebookexternalhit
+facebot
+facebookbot
+meta-externalagent
+meta-externalfetcher
+facebookcatalog

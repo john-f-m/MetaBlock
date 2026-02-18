@@ -1,0 +1,6 @@
+facebookbot
+facebookcatalog
+facebookexternalhit
+facebot
+meta-externalagent
+meta-externalfetcher

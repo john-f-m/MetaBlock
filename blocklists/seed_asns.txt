@@ -1,0 +1,16 @@
+# Meta ASN seed list.
+# Source basis (as of 2026-02-18):
+# - PeeringDB Meta org (Facebook/Instagram/WhatsApp/Oculus umbrella)
+# - RADB AS-FACEBOOK as-set membership
+#
+# Coverage intent:
+# - Facebook/Instagram core traffic: AS32934
+# - WhatsApp-heavy traffic: AS63293
+# - Legacy/additional Meta edges: AS54115, AS34825, AS11917
+#
+# Keep this file reviewed over time.
+AS32934
+AS63293
+AS54115
+AS34825
+AS11917

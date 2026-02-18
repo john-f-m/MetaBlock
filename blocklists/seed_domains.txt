@@ -1,0 +1,29 @@
+# Meta/Facebook
+facebook.com
+facebook.net
+fb.com
+fb.me
+fb.watch
+fbcdn.net
+fbsbx.com
+tfbnw.net
+messenger.com
+m.me
+workplace.com
+atlassolutions.com
+
+# Instagram / Threads
+instagram.com
+cdninstagram.com
+oninstagram.com
+threads.net
+
+# WhatsApp
+whatsapp.com
+whatsapp.net
+wa.me
+
+# Oculus / Meta branding
+oculus.com
+meta.com
+meta.ai
